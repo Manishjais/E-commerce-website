@@ -12,6 +12,7 @@ import { Elements } from'@stripe/react-stripe-js';
 const stripePromise = loadStripe(
   "pk_test_51MRvxqSHjIDika7FkaT4IU5zMtxnsk2BC7DBLSmg1yOmoKZ45qBe8xKJG5520EQmo0okwCrJUMVs7AUefM623A4Z00oBs7PGKP"
 );
+
 function App() {
   return (
     <Router>
